@@ -21,4 +21,4 @@ jobs:
           endpoint: "oss-cn-hangzhou.aliyuncs.com"
           access-key-id: ${{secrets.AccessKey_ID}}
           access-key-secret: ${{secrets.Access_Key_Secret}}
-      - run: ossutil cp -rf image oss://iruxutest/
+      - run: ossutil cp -rf image oss://jx3box/image/
