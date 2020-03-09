@@ -23,7 +23,7 @@ jobs:
         - uses: actions/checkout@v2
         - uses: manyuanrong/setup-ossutil@v1.0
             with:
-            endpoint: "oss-cn-hangzhou.aliyuncs.com"
-            access-key-id: ${{secrets.AccessKey_ID}}
-            access-key-secret: ${{secrets.Access_Key_Secret}}
+                endpoint: "oss-cn-hangzhou.aliyuncs.com"
+                access-key-id: ${{secrets.AccessKey_ID}}
+                access-key-secret: ${{secrets.Access_Key_Secret}}
         - run: ossutil cp -rf * oss://iruxutest/
