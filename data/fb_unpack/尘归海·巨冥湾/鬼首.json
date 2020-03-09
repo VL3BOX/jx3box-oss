@@ -1,0 +1,664 @@
+{
+    "name": "鬼首",
+    "data":[
+    {
+        "Name": "退出鱼枪发射",
+        "DamageBase": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+        "SkillBaseInfo": {
+            "IdKey": 16369,
+            "SkillID": 21704,
+            "IconID": 4940,
+            "Level": 1,
+            "Name": "退出",
+            "Desc": "退出发射鱼叉状态。",
+            "Remark": "(21704) 3号_退出鱼枪发射"
+        }
+    },
+    {
+        "Name": "鱼枪发射_检测技能",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "AngleRange": "256",
+        "AreaRadius": "5",
+        "TargetCountLimit": ["-1"],
+        "DamageBase": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+        "SkillBaseInfo": { "IconID": 316 }
+    },
+    {
+        "Name": "鱼枪发射子技能",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "BrokenRate": "0",
+        "BeatBackRate": "0",
+        "DamageBase": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+        "SkillBaseInfo": { "IconID": 316 }
+    },
+    { "Name": "鱼枪发射母技能", "SkillBaseInfo": { "IconID": 316 } },
+    {
+        "Name": "近距离",
+        "MinRadius": "0",
+        "MaxRadius": ["10"],
+        "DamageBase": [
+            "29500",
+            "53100",
+            "99200",
+            "400",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "SkillBaseInfo": {
+            "IdKey": 2006,
+            "SkillID": 1594,
+            "IconID": 13,
+            "Level": 0,
+            "Name": "云飞玉皇",
+            "Desc": "<SKILL PhysicsDamage>点(+<SKILLEx {D0} {SkillPhysicsAP}>)",
+            "Remark": "(1594) 藏剑_灵峰剑式_子技能_云飞玉皇近距离"
+        }
+    },
+    {
+        "Name": "远距离",
+        "MinRadius": "0",
+        "MaxRadius": ["500"],
+        "DamageBase": [
+            "47600",
+            "85700",
+            "192000",
+            "4000",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "SkillBaseInfo": {
+            "IdKey": 15395,
+            "SkillID": 20186,
+            "IconID": 13,
+            "Level": 1,
+            "Name": "20186 韩清芒_星芒剑意·冰_爆炸_远距离",
+            "Desc": "远距离冰爆",
+            "Remark": "(20186) 20186 韩清芒_星芒剑意·冰_爆炸_远距离"
+        }
+    },
+    {
+        "Name": "BOSS普攻母技能",
+        "MinRadius": "0",
+        "MaxRadius": ["500"],
+        "DamageBase": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+        "SkillBaseInfo": { "IconID": 316 }
+    },
+    {
+        "Name": "Z形AOE子弹表现",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "AngleRange": "256",
+        "DamageBase": [
+            "1000",
+            "2000",
+            "3000",
+            "4000",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "SkillBaseInfo": { "IconID": 316 }
+    },
+    {
+        "Name": "Z形AOE投掷读条预警",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "Height": "20",
+        "RectWidth": "5",
+        "AngleRange": "256",
+        "AreaRadius": "15",
+        "PrepareFrames": ["80"],
+        "BrokenRate": "0",
+        "BeatBackRate": "0",
+        "DamageBase": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+        "SkillBaseInfo": { "IconID": 316 }
+    },
+    {
+        "Name": "Z形AOE终结技",
+        "MinRadius": "0",
+        "MaxRadius": ["200"],
+        "AngleRange": "256",
+        "AreaRadius": "6",
+        "TargetCountLimit": ["-1"],
+        "DamageBase": [
+            "13000",
+            "24100",
+            "36000",
+            "10000",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "13000",
+            "24100",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "13000",
+            "24100",
+            "36000",
+            "10000",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "Immune": ["360", "856", "203"],
+        "SkillBaseInfo": {
+            "IdKey": 16327,
+            "SkillID": 21639,
+            "IconID": 13,
+            "Level": 0,
+            "Name": "闪戟破浪式·真鬼破",
+            "Desc": "测试技能",
+            "Remark": "(21639) 3号_Z形AOE终结技读条"
+        },
+        "ImmuneDetail": [
+            {
+                "IdKey": 364,
+                "BuffID": 360,
+                "IconID": 1456,
+                "Level": 0,
+                "Name": "御",
+                "Desc": "每层化解一次伤害",
+                "Remark": "(360)(0)天策-御"
+            },
+            {
+                "IdKey": 1029,
+                "BuffID": 856,
+                "IconID": 421,
+                "Level": 1,
+                "Name": "健骨",
+                "Desc": "免疫一切内功伤害",
+                "Remark": "(856)(1)锻骨诀内功无敌效果"
+            },
+            {
+                "IdKey": 146,
+                "BuffID": 203,
+                "IconID": 1457,
+                "Level": 1,
+                "Name": "啸如虎",
+                "Desc": "受到疗伤成效提高2%，不会重伤",
+                "Remark": "(203)(1)天策-啸如虎-傲血战意"
+            }
+        ]
+    },
+    {
+        "Name": "Z形AOE终结技伤害",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "AngleRange": "256",
+        "TargetCountLimit": ["1"],
+        "DamageBase": ["50000", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+        "Immune": ["360", "856", "203", "2797", "10486"],
+        "SkillBaseInfo": { "IconID": 316 },
+        "ImmuneDetail": [
+            {
+                "IdKey": 364,
+                "BuffID": 360,
+                "IconID": 1456,
+                "Level": 0,
+                "Name": "御",
+                "Desc": "每层化解一次伤害",
+                "Remark": "(360)(0)天策-御"
+            },
+            {
+                "IdKey": 1029,
+                "BuffID": 856,
+                "IconID": 421,
+                "Level": 1,
+                "Name": "健骨",
+                "Desc": "免疫一切内功伤害",
+                "Remark": "(856)(1)锻骨诀内功无敌效果"
+            },
+            {
+                "IdKey": 146,
+                "BuffID": 203,
+                "IconID": 1457,
+                "Level": 1,
+                "Name": "啸如虎",
+                "Desc": "受到疗伤成效提高2%，不会重伤",
+                "Remark": "(203)(1)天策-啸如虎-傲血战意"
+            },
+            {
+                "IdKey": 3279,
+                "BuffID": 2797,
+                "IconID": 432,
+                "Level": 0,
+                "Name": "罗汉金身",
+                "Desc": "伤害反弹30%，自身伤害40%转化为内力值",
+                "Remark": "(2797)(0)罗汉金身+30%段3"
+            },
+            {
+                "IdKey": 9807,
+                "BuffID": 10486,
+                "IconID": 422,
+                "Level": 1,
+                "Name": "无相诀",
+                "Desc": "反弹受到的伤害70%",
+                "Remark": "(10486)(1)无相减伤效果降低"
+            }
+        ]
+    },
+    {
+        "Name": "Z形AOE终结技读条",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "AngleRange": "256",
+        "PrepareFrames": ["32"],
+        "BrokenRate": "0",
+        "BeatBackRate": "0",
+        "DamageBase": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+        "SkillBaseInfo": {
+            "IdKey": 16327,
+            "SkillID": 21639,
+            "IconID": 13,
+            "Level": 0,
+            "Name": "闪戟破浪式·真鬼破",
+            "Desc": "测试技能",
+            "Remark": "(21639) 3号_Z形AOE终结技读条"
+        }
+    },
+    {
+        "Name": "伪海阵伤害",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "Height": "1",
+        "AngleRange": "256",
+        "AreaRadius": "2",
+        "TargetCountLimit": ["1"],
+        "DamageBase": [
+            "38200",
+            "64000",
+            "76300",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "SkillBaseInfo": { "IconID": 316 }
+    },
+    {
+        "Name": "抓人链状表现",
+        "MinRadius": "0",
+        "MaxRadius": ["600"],
+        "DamageBase": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+        "SkillBaseInfo": { "IconID": 316 }
+    },
+    {
+        "Name": "投掷过程伤害技能",
+        "AddSlowCheckDestBuff": "14793",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "Height": "6",
+        "RectWidth": "5",
+        "AngleRange": "256",
+        "AreaRadius": "10",
+        "TargetCountLimit": ["-1"],
+        "DamageBase": ["22600", "26200", "36800", "24100"],
+        "Immune": ["360", "856", "203"],
+        "SkillBaseInfo": {
+            "IdKey": 16291,
+            "SkillID": 21578,
+            "IconID": 13,
+            "Level": 0,
+            "Name": "闪戟画浪式·鬼破",
+            "Desc": "测试技能",
+            "Remark": "(21578) 3号_Z形AOE_投掷过程伤害技能"
+        },
+        "ImmuneDetail": [
+            {
+                "IdKey": 364,
+                "BuffID": 360,
+                "IconID": 1456,
+                "Level": 0,
+                "Name": "御",
+                "Desc": "每层化解一次伤害",
+                "Remark": "(360)(0)天策-御"
+            },
+            {
+                "IdKey": 1029,
+                "BuffID": 856,
+                "IconID": 421,
+                "Level": 1,
+                "Name": "健骨",
+                "Desc": "免疫一切内功伤害",
+                "Remark": "(856)(1)锻骨诀内功无敌效果"
+            },
+            {
+                "IdKey": 146,
+                "BuffID": 203,
+                "IconID": 1457,
+                "Level": 1,
+                "Name": "啸如虎",
+                "Desc": "受到疗伤成效提高2%，不会重伤",
+                "Remark": "(203)(1)天策-啸如虎-傲血战意"
+            }
+        ]
+    },
+    {
+        "Name": "残力",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "AngleRange": "256",
+        "AreaRadius": "2",
+        "TargetCountLimit": ["-1"],
+        "DamageBase": ["1", "6200", "9200", "0", "0", "0", "0", "0", "0", "0"],
+        "SkillBaseInfo": {
+            "IdKey": 16391,
+            "SkillID": 21735,
+            "IconID": 13,
+            "Level": 0,
+            "Name": "残力",
+            "Desc": "测试技能",
+            "Remark": "(21735) 3号_残力"
+        }
+    },
+    {
+        "Name": "水下冲锋",
+        "AddSlowCheckDestBuff": "15310",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "AngleRange": "256",
+        "AreaRadius": "7",
+        "TargetCountLimit": ["-1"],
+        "DamageBase": [
+            "37400",
+            "42700",
+            "55200",
+            "40",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "SkillBaseInfo": {
+            "IdKey": 16344,
+            "SkillID": 21666,
+            "IconID": 13,
+            "Level": 0,
+            "Name": "碎流击",
+            "Desc": "测试技能",
+            "Remark": "(21666) 3号_水下冲锋"
+        }
+    },
+    {
+        "Name": "水下推开玩家",
+        "AddSlowCheckDestBuff": "15310",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "AngleRange": "256",
+        "AreaRadius": "5",
+        "TargetCountLimit": ["-1"],
+        "DamageBase": [
+            "7100",
+            "14800",
+            "16600",
+            "40",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "SkillBaseInfo": { "IconID": 316 }
+    },
+    {
+        "Name": "水毒叠加",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "DamageBase": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+        "SkillBaseInfo": { "IconID": 316 }
+    },
+    {
+        "Name": "水毒释放读条",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "PrepareFrames": ["32"],
+        "BrokenRate": "0",
+        "BeatBackRate": "0",
+        "DamageBase": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+        "SkillBaseInfo": { "IconID": 316 }
+    },
+    {
+        "Name": "水鬼拉人",
+        "MinRadius": "0",
+        "MaxRadius": ["800"],
+        "AngleRange": "256",
+        "TargetCountLimit": ["1"],
+        "BrokenRate": "0",
+        "BeatBackRate": "0",
+        "DamageBase": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+        "PULL": "100",
+        "SkillBaseInfo": {
+            "IdKey": 16121,
+            "SkillID": 21365,
+            "IconID": 13,
+            "Level": 0,
+            "Name": "深海绞杀",
+            "Desc": "测试技能",
+            "Remark": "(21365) 3号_水鬼拉人"
+        }
+    },
+    {
+        "Name": "水鬼拉人母技能",
+        "MinRadius": "0",
+        "MaxRadius": ["800"],
+        "AngleRange": "256",
+        "DamageBase": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+        "SkillBaseInfo": { "IconID": 316 }
+    },
+    {
+        "Name": "小",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "Height": "14",
+        "AngleRange": "256",
+        "AreaRadius": "2.5",
+        "TargetCountLimit": ["-1"],
+        "DamageBase": [
+            "1",
+            "19700",
+            "22100",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "SkillBaseInfo": {
+            "IdKey": 2158,
+            "SkillID": 1752,
+            "IconID": 13,
+            "Level": 0,
+            "Name": "四季灵蕴·小寒",
+            "Desc": "测试技能",
+            "Remark": "(1752) 剑冢_1号boss_四季灵蕴_小寒"
+        }
+    },
+    { "Name": "海阵实际伤害", "SkillBaseInfo": { "IconID": 316 } },
+    {
+        "Name": "海阵释放读条",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "AngleRange": "256",
+        "PrepareFrames": ["160"],
+        "BeatBackRate": "0",
+        "DamageBase": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+        "SkillBaseInfo": {
+            "IdKey": 16241,
+            "SkillID": 21515,
+            "IconID": 13,
+            "Level": 0,
+            "Name": "鬼影天损海阵·结",
+            "Desc": "测试技能",
+            "Remark": "(21515) 3号_海阵释放读条"
+        }
+    },
+    {
+        "Name": "海阵预警读条",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "PrepareFrames": ["16"],
+        "BrokenRate": "0",
+        "BeatBackRate": "0",
+        "DamageBase": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+        "SkillBaseInfo": {
+            "IdKey": 16230,
+            "SkillID": 21502,
+            "IconID": 13,
+            "Level": 0,
+            "Name": "鬼影天损海阵",
+            "Desc": "测试技能",
+            "Remark": "(21502) 3号_海阵预警读条"
+        }
+    },
+    {
+        "Name": "真海阵伤害",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "Height": "1",
+        "AngleRange": "256",
+        "AreaRadius": "2",
+        "TargetCountLimit": ["1"],
+        "DamageBase": [
+            "29700",
+            "34400",
+            "58900",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "SkillBaseInfo": { "IconID": 316 }
+    },
+    {
+        "Name": "圆形AOE实际伤害_中",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "Height": "40",
+        "AngleRange": "256",
+        "AreaRadius": "3.5",
+        "TargetCountLimit": ["-1"],
+        "DamageBase": [
+            "33900",
+            "47600",
+            "57900",
+            "400",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "SkillBaseInfo": { "IconID": 316 }
+    },
+    { "Name": "圆形AOE实际伤害_大", "SkillBaseInfo": { "IconID": 316 } },
+    {
+        "Name": "圆形AOE实际伤害_小",
+        "MinRadius": "0",
+        "MaxRadius": ["100"],
+        "Height": "40",
+        "AngleRange": "256",
+        "AreaRadius": "2.5",
+        "TargetCountLimit": ["-1"],
+        "DamageBase": [
+            "33900",
+            "47600",
+            "57900",
+            "400",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "SkillBaseInfo": { "IconID": 316 }
+    },
+    {
+        "Name": "圆形AOE读条",
+        "MaxRadius": ["100"],
+        "AngleRange": "256",
+        "AreaRadius": "100",
+        "TargetCountLimit": ["-1"],
+        "PrepareFrames": ["24"],
+        "BrokenRate": "0",
+        "BeatBackRate": "0",
+        "DamageBase": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0"],
+        "SkillBaseInfo": {
+            "IdKey": 16159,
+            "SkillID": 21414,
+            "IconID": 13,
+            "Level": 0,
+            "Name": "闪戟画浪式·涌",
+            "Desc": "测试技能",
+            "Remark": "(21414) 3号_闪戟画浪式_圆形AOE读条技能"
+        }
+    },
+    {
+        "Name": "扇形AOE",
+        "AngleRange": "128",
+        "AreaRadius": "15",
+        "TargetCountLimit": ["-1"],
+        "PrepareFrames": ["32"],
+        "BrokenRate": "0",
+        "BeatBackRate": "0",
+        "DamageBase": [
+            "28300",
+            "55800",
+            "66200",
+            "400",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "SkillBaseInfo": {
+            "IdKey": 13642,
+            "SkillID": 17949,
+            "IconID": 13,
+            "Level": 2,
+            "Name": "天工甲士_扇形AOE母技能",
+            "Desc": "测试技能",
+            "Remark": "(17949) 天工甲士_扇形AOE带预警"
+        }
+    }
+]
+}

@@ -1,0 +1,3 @@
+{
+    "name": "前置关卡",
+    "data":[{"Name":"前置关卡_伤害","SkillBaseInfo":{"IconID":316}},{"Name":"前置关卡_李如风击水三千","Height":"40","RectWidth":"4","AreaRadius":"12","TargetCountLimit":["-1"],"DamageBase":["108000","403200","691200","0","0","0","0","0","0","0"],"SkillBaseInfo":{"IconID":316}},{"Name":"前置关卡_鱼叉叉人","MinRadius":"0","MaxRadius":["120"],"AngleRange":"256","SkillBaseInfo":{"IdKey":16486,"SkillID":21890,"IconID":13,"Level":0,"Name":"鱼枪","Desc":"测试技能","Remark":"(21890) 4号_前置关卡_鱼叉叉人伤害"}}]}
