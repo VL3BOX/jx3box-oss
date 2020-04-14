@@ -1,16 +1,18 @@
 # OSS  
 不包含用户上传资源，此库为图片&json等数据镜像。
 
-## 环境
-@部署：阿里云OSS  
-@域名：https://cdn.jx3box.com/image|data  
-@本地HOST：绑定根目录为cdn.jx3box.com
+## 存档
+@部署：github master  
+@备份：//oss/image|img|data (push自动推送)
 
-## 说明
-推送后自动更新至oss
+## 访问
+@源站：https://cdn.jx3box.com/  
+@数据加速：https://cdn.jsdelivr.net/gh/JX3BOX/jx3box-oss/data/  
+@图片加速：https://console.cnyixun.com/
 
-## 注意
-本地环境需配置允许跨域
+## 本地开发环境
+1. host:cdn.jx3box.com绑定根目录为
+2. 配置跨域
 ```
 location / {  
     add_header Access-Control-Allow-Origin *;
