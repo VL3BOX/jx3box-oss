@@ -7,6 +7,20 @@
             {
                 "type": 2,
                 "devide_level": "100",
+                "devide_name": "范阳夜变",
+                "devide_icon": "",
+                "cat_id": "fanyangyebian",
+                "name": "范阳夜变",
+                "maps": [
+                    { "map_id": "299", "mode": "10人普通", "boss_index": 0 },
+                    { "map_id": "299", "mode": "25人普通", "boss_index": 0 },
+                    { "map_id": "299", "mode": "25人英雄", "boss_index": 0 }
+                ],
+                "icon": "https://cdn.jx3box.com/img/fb/fanyangyebian.png"
+            },
+            {
+                "type": 2,
+                "devide_level": "100",
                 "devide_name": "世外蓬莱",
                 "devide_icon": "",
                 "cat_id": "aolongdao",
