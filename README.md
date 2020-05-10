@@ -6,7 +6,7 @@
 @备份：//oss/image|img (push自动推送)
 
 ## 访问
-@源站：https://cdn.jx3box.com/  
+@源站：https://img.jx3box.com/  
 @图片加速：https://console.cnyixun.com/
 
 ## 本地开发环境
