@@ -37,12 +37,12 @@
             "xs": {
                 "w": 48,
                 "width": 60,
-                "file": "flower_1-xs.gif"
+                "file": "flower_1-xs.png"
             },
             "s": {
                 "w": 68,
                 "width": 84,
-                "file": "flower_1-s.gif"
+                "file": "flower_1-s.png"
             },
             "m": {
                 "w": 108,
