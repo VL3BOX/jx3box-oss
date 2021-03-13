@@ -35,7 +35,7 @@
     "flower_1":{
         "name": "flower_1",
         "style":"circle",
-        "desc":"花朝节限定1",
+        "desc":"花朝节限定·香风",
         "status":1,
         "files": {
             "xs": {
@@ -68,7 +68,7 @@
     "flower_2":{
         "name": "flower_2",
         "style":"circle",
-        "desc":"花朝节限定2",
+        "desc":"花朝节限定·晓寒",
         "status":1,
         "files": {
             "xs": {
@@ -101,7 +101,7 @@
     "flower_3":{
         "name": "flower_3",
         "style":"circle",
-        "desc":"花朝节限定3",
+        "desc":"花朝节限定·千红",
         "status":1,
         "files": {
             "xs": {
@@ -134,7 +134,7 @@
     "flower_4":{
         "name": "flower_4",
         "style":"circle",
-        "desc":"花朝节限定4",
+        "desc":"花朝节限定·国色",
         "status":1,
         "files": {
             "xs": {
@@ -167,7 +167,7 @@
     "flower_5":{
         "name": "flower_5",
         "style":"circle",
-        "desc":"花朝节限定5",
+        "desc":"花朝节限定·乱花",
         "status":1,
         "files": {
             "xs": {
@@ -200,7 +200,7 @@
     "leaf_1":{
         "name": "leaf_1",
         "style":"circle",
-        "desc":"花朝节限定6",
+        "desc":"花朝节限定·碧丛",
         "status":1,
         "files": {
             "xs": {
