@@ -197,6 +197,39 @@
             }
         }
     },
+    "flower_6":{
+        "name": "flower_6",
+        "style":"circle",
+        "desc":"花朝节限定·雪玫",
+        "status":1,
+        "files": {
+            "xs": {
+                "w": 48,
+                "width": 60,
+                "file": "flower_6-xs.png"
+            },
+            "s": {
+                "w": 68,
+                "width": 84,
+                "file": "flower_6-s.png"
+            },
+            "m": {
+                "w": 108,
+                "width": 136,
+                "file": "flower_6-m.png"
+            },
+            "l": {
+                "w": 180,
+                "width": 224,
+                "file": "flower_6-l.png"
+            },
+            "xl": {
+                "w": 240,
+                "width": 300,
+                "file": "flower_6-xl.png"
+            }
+        }
+    },
     "leaf_1":{
         "name": "leaf_1",
         "style":"circle",
