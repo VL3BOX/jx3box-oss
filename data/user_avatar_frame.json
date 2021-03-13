@@ -2,6 +2,8 @@
     "default":{
         "name": "default",
         "style":"square",
+        "desc":"默认头像框",
+        "status":1,
         "files": {
             "xs": {
                 "w": 48,
@@ -33,6 +35,8 @@
     "flower_1":{
         "name": "flower_1",
         "style":"circle",
+        "desc":"花朝节限定1",
+        "status":1,
         "files": {
             "xs": {
                 "w": 48,
@@ -64,6 +68,8 @@
     "flower_2":{
         "name": "flower_2",
         "style":"circle",
+        "desc":"花朝节限定2",
+        "status":1,
         "files": {
             "xs": {
                 "w": 48,
@@ -95,6 +101,8 @@
     "flower_3":{
         "name": "flower_3",
         "style":"circle",
+        "desc":"花朝节限定3",
+        "status":1,
         "files": {
             "xs": {
                 "w": 48,
@@ -126,6 +134,8 @@
     "flower_4":{
         "name": "flower_4",
         "style":"circle",
+        "desc":"花朝节限定4",
+        "status":1,
         "files": {
             "xs": {
                 "w": 48,
@@ -157,6 +167,8 @@
     "flower_5":{
         "name": "flower_5",
         "style":"circle",
+        "desc":"花朝节限定5",
+        "status":1,
         "files": {
             "xs": {
                 "w": 48,
@@ -188,6 +200,8 @@
     "leaf_1":{
         "name": "leaf_1",
         "style":"circle",
+        "desc":"花朝节限定6",
+        "status":1,
         "files": {
             "xs": {
                 "w": 48,
