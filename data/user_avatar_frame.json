@@ -262,5 +262,38 @@
                 "file": "leaf_1-xl.png"
             }
         }
+    },
+    "bdfy":{
+        "name": "bdfy",
+        "style":"circle",
+        "desc":"白帝风云",
+        "status":1,
+        "files": {
+            "xs": {
+                "w": 48,
+                "width": 60,
+                "file": "bdfy-xs.png"
+            },
+            "s": {
+                "w": 68,
+                "width": 84,
+                "file": "bdfy-s.png"
+            },
+            "m": {
+                "w": 108,
+                "width": 136,
+                "file": "bdfy-m.png"
+            },
+            "l": {
+                "w": 180,
+                "width": 224,
+                "file": "bdfy-l.png"
+            },
+            "xl": {
+                "w": 240,
+                "width": 300,
+                "file": "bdfy-xl.png"
+            }
+        }
     }
 }
