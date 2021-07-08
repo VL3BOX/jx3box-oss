@@ -1,6 +1,6 @@
 # OSS  
 不包含用户上传资源，此库为图片镜像。
-
+头像：部署南京
 ## 存档
 @部署：github master  
 @备份：//oss/image|img (push自动推送)
