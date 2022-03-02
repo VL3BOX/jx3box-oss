@@ -295,5 +295,38 @@
                 "file": "bdfy-xl.png"
             }
         }
-    }
+    },
+    "gold_1":{
+        "name": "gold_1",
+        "style":"circle",
+        "desc":"2022花朝节限定·金枝",
+        "status":1,
+        "files": {
+            "xs": {
+                "w": 48,
+                "width": 60,
+                "file": "gold_1-xs.png"
+            },
+            "s": {
+                "w": 68,
+                "width": 84,
+                "file": "gold_1-s.png"
+            },
+            "m": {
+                "w": 108,
+                "width": 136,
+                "file": "gold_1-m.png"
+            },
+            "l": {
+                "w": 180,
+                "width": 224,
+                "file": "gold_1-l.png"
+            },
+            "xl": {
+                "w": 240,
+                "width": 300,
+                "file": "gold_1-xl.png"
+            }
+        }
+    },
 }
