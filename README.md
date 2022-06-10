@@ -9,17 +9,41 @@
 @源站：https://img.jx3box.com/  
 @图片加速：https://console.cnyixun.com/
 
-## 本地开发环境
-1. host:cdn.jx3box.com绑定根目录为
-2. 配置跨域
+## Nginx
 ```
-location / {  
+#跨域设置
     add_header Access-Control-Allow-Origin *;
     add_header Access-Control-Allow-Methods 'GET, POST, OPTIONS';
     add_header Access-Control-Allow-Headers 'DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization';
-
+    
     if ($request_method = 'OPTIONS') {
-        return 204;
+      return 204;
     }
-} 
-``
+
+
+    location /avatar/ {  
+        alias /www/wwwroot/jx3box/img/img-avatar/;
+    }
+    location /emotion/ {  
+        alias /www/wwwroot/jx3box/jx3-emotion/;
+    }
+    location /map/ {  
+        alias /www/wwwroot/jx3box/jx3-map/;
+    }
+    location /pvx/ {  
+        alias /www/wwwroot/jx3box/jx3-pvx/;
+    }
+    location /adventure/ {  
+        alias /www/wwwroot/jx3box/img/img-adventure/;
+    }
+    location /pet/ {  
+        alias /www/wwwroot/jx3box/img/img-pet/;
+    }    
+    location /homeland/ {  
+        alias /www/wwwroot/jx3box/img/img-homeland/;
+    }
+    location /topic/ {  
+        alias /www/wwwroot/jx3box/img/img-topic/;
+    }
+    
+```
