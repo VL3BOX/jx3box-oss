@@ -23,4 +23,5 @@ jobs:
           REPO_NAME: ${{ github.event.repository.name }}
 
       - run: |
-          rclone sync . r2:/vl3box/$STATIC_SUBPATH/ --exclude '.*{/**,}' --exclude '*.{md,gitignore}'
+          export STATIC_SUBPATH=${STATIC_SUBPATH/oss/}
+          rclone sync . r2:/vl3box/$STATIC_SUBPATH --exclude '.*{/**,}' --exclude '*.{md,gitignore}' --use-server-modtime 
