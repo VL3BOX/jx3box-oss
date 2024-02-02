@@ -10,13 +10,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Upload to Cloudflare R2
+      - name: Setup Cloudflare R2 Rclone
         uses: AnimMouse/setup-rclone@main
         with:
           rclone_config: ${{ secrets.CF_RCLONE_CONFIG }} #base64
           version: latest
 
+      - name: Get static subpath on R2
+        run: |
+          echo "STATIC_SUBPATH=${REPO_NAME#*-}" >> $GITHUB_ENV
+        env:
+          REPO_NAME: ${{ github.event.repository.name }}
+
       - run: |
-          rclone sync data/ r2:/vl3box/data
-          rclone sync image/ r2:/vl3box/image
-          rclone sync img/ r2:/vl3box/img
+          rclone sync . r2:/vl3box/$STATIC_SUBPATH/ --exclude '.*{/**,}' --exclude '*.{md,gitignore}'
